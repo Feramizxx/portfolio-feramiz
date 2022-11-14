@@ -1,0 +1,9 @@
+.pattern-img{
+   width: 280px;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+.Portfolio{
+   background-image: url("../images/mountain.png");
+}
