@@ -5,10 +5,10 @@ import Layout from "./components/ui/Layout";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter  basename={process.env.PUBLIC_URL}>
         <Layout>
           <Routes>
-            <Route path="/my-portfolio" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </Layout>
       </BrowserRouter>
