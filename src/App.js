@@ -5,7 +5,7 @@ import Layout from "./components/ui/Layout";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  basename='/'>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
